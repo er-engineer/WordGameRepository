@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel2" pref="0" max="32767" attributes="0"/>
+                  <Component id="jLabel1" pref="459" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" pref="218" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Kurallar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; - Oyun s&#xfc;resi 180 saniyedir. &lt;br/&gt;&#xa;             - S&#xfc;reyi durdur butonuna bas&#x131;ld&#x131;&#x11f;&#x131;nda yaln&#x131;zca bir tahmin yap&#x131;labilir.&lt;br/&gt;&#xa;             - S&#xfc;reyi durdur butonuna bas&#x131;ld&#x131;&#x11f;&#x131;nda ipucu al&#x131;namaz.&lt;br/&gt;&#xa;             - S&#xfc;reyi durdur butonu bas&#x131;ld&#x131;&#x11f;&#x131;ndan iitibaren 5 saniye i&#xe7;erisinde tahmin yap&#x131;lmal&#x131;d&#x131;r&lt;br/&gt;aksi takdirde yeni kelimeye ge&#xe7;ilir ve puan al&#x131;namaz.&lt;br/&gt;&#xa;             - &#x130;pucu alma hakk&#x131;, n harfli kelime i&#xe7;in (n-3) adet &#x15f;eklindedir. &lt;br/&gt;&#xa;             - Al&#x131;nan iipucu say&#x131;s&#x131; n olmak &#xfc;zere al&#x131;nm&#x131;&#x15f; olan ipucu ba&#x15f;&#x131;na kelimeden kazan&#x131;lacak puan (n*100) miktar&#x131;nda azalacakt&#x131;r.&lt;br/&gt;&#xa;             - Verilen a&#xe7;&#x131;klamaya uygun yap&#x131;lan herbir do&#x11f;ru tahmin n harfli kelime i&#xe7;in (n*100) puan kazand&#x131;racakt&#x131;r.&#xa;&#x9;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
