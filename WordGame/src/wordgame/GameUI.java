@@ -129,7 +129,9 @@ public class GameUI extends javax.swing.JFrame {
     }//GEN-LAST:event_startButtonActionPerformed
 
     private void rulesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rulesButtonActionPerformed
-        Rules
+        Rules rules = new Rules();
+        rules.setVisible(true);
+        rulesButton.setEnabled(false);
     }//GEN-LAST:event_rulesButtonActionPerformed
 
     public static void main(String args[]) {
